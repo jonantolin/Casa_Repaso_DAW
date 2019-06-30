@@ -1,0 +1,8 @@
+        <h1>Logueate</h1>
+        <form action="j_security_check" method="POST">
+            <p>Nombre: <input type="text" name="j_username"></p>
+            <p>Contraseña: <input type="password" name="j_password"></p><br>
+            <input type="submit" value="Enviar">
+            
+            
+        </form>

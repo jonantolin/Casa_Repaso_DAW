@@ -1,0 +1,65 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    text-align: center;
+}
+header {
+    background-color: #CBCBCB;
+    height: 100px;
+    border-top: 5px solid gray;
+}
+header img {
+    float: left;
+    left: 40px;
+    position: relative;
+    top: 20px;
+}
+header nav {
+    float: left;
+}
+header nav a {
+    color: black;
+    margin-left: 90px;
+    position: relative;
+    text-decoration: none;
+    top: 40px;
+}
+header nav a:first-child {
+    border-left: 1px solid;
+    padding-left: 5px;
+}
+header div {
+    float: left;
+    margin-left: 50px;
+}
+header div ul li {
+    display: inline;
+}
+header div ul li a {
+    color: black;
+    margin-left: 10px;
+    position: relative;
+    text-decoration: none;
+    top: 40px;
+}
+aside {
+    background-color: teal;
+    float: left;
+    height: 400px;
+    width: 10%;
+}
+section {
+    background-color: wheat;
+    float: left;
+    height: 400px;
+    width: 90%;
+}
+footer {
+    background-color: pink;
+    clear: left;
+    display: block;
+    height: 12%;
+}

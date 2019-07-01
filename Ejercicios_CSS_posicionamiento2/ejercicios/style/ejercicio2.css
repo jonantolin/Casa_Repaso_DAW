@@ -1,0 +1,64 @@
+
+#ejercicio {
+    background-color: #bebebe;
+    height: 580px;
+    margin-left: 20px;
+    width: 500px;
+}
+* {
+    margin: 0;
+}
+header {
+    font-size: 12pt;
+    padding: 1em;
+    text-align: center;
+}
+p {
+    font-size: 16pt;
+    margin: 8px;
+}
+#marron {
+    background-color: tan;
+    border: 1px solid #c28b44;
+    height: 50px;
+    left: 80px;
+    padding: 0.1em 1em 1em;
+    position: relative;
+    text-align: center;
+    width: 300px;
+}
+#amarillo, #azul, #lila, #rojo, #verde {
+    float: left;
+    height: 180px;
+    margin: 2em 2em 1em;
+    width: 170px;
+}
+#amarillo {
+    background-color: #ebeb94;
+    border: 3px solid #f5f597;
+    margin-top: 5px;
+}
+#azul {
+    background-color: #9be7eb;
+    border: 3px solid #00e1ff;
+    margin-top: 5px;
+}
+#lila {
+    background-color: #f0ede2;
+    border: 3px solid #d4bfd3;
+}
+#rojo {
+    background-color: #dd9393;
+    border: 3px solid #9a7171;
+    text-align: right;
+}
+#verde {
+    background-color: #79d679;
+    border: 3px solid #34a434;
+    left: 145px;
+    margin-top: 115px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+

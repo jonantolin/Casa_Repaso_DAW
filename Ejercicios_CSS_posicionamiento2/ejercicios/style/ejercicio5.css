@@ -1,0 +1,47 @@
+
+body {
+    background-color: #a1e4f2;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    letter-spacing: 15px;
+    font-size: 30pt;
+}
+
+h2 {
+    color: green;
+    font-size: 14pt;
+}
+
+#articulo {
+    float: left;
+    width: 600px;
+    margin-left: 10em;
+}
+
+article img {
+    float: left;
+    margin-right: 15px;
+}
+
+#monedas2 {
+    float: right;
+    margin-top: 7em;
+}
+
+#monedas1 {
+    float: left;
+    margin-top: 7em;
+}
+
+div {
+    margin: 1em;
+}
+
+footer {
+    clear: left;
+    font-size: 10pt;
+    text-align: center;
+}

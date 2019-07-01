@@ -1,0 +1,75 @@
+
+p {
+    display: none;
+}
+h2 {
+    margin-left: 38px;
+}
+ul {
+    list-style:none;
+}
+li {
+    border-top: 1px solid;
+    margin-top: 1em;
+    padding-top: 1em;
+    width: 58%;
+}
+label {
+    clear: left;
+    display: block;
+    font-size: 8pt;
+}
+li label:first-child {
+    font-size: 10pt;
+    font-weight: bold;
+}
+span.requerido {
+    color: red;
+}
+#apellido1, #apellido2, #direccion, #email {
+    width: 20em;
+}
+#municipio, #pais {
+    width: 7em;
+}
+li:last-child {
+    border-top: 1px solid;
+    clear: left;
+    float: none;
+    text-align: right;
+    width: 58%;
+}
+li:hover {
+    background-color: #ff9;
+}
+input:focus {
+    border: 2px solid yellow;
+}
+ul li:first-child:hover p {
+    bottom: 70%;
+    display: block;
+    left: 33em;
+    position: absolute;
+    width: 120px;
+}
+ul li:nth-child(2):hover p {
+    bottom: 35%;
+    display: block;
+    left: 33em;
+    position: absolute;
+    width: 120px;
+}
+ul li:nth-child(3):hover p {
+    bottom: 15%;
+    display: block;
+    left: 33em;
+    position: absolute;
+    width: 120px;
+}
+ul li:nth-child(4):hover p {
+    bottom: 0%;
+    display: block;
+    left: 33em;
+    position: absolute;
+    width: 120px;
+}

@@ -1,0 +1,39 @@
+
+p {
+    display: none;
+}
+h2 {
+    margin-left: 38px;
+}
+ul {
+    list-style: none;
+}
+li {
+    float: left;
+    width: 35%;
+}
+label {
+    clear: left;
+    display: block;
+    font-size: 8pt;
+}
+li label:first-child {
+    font-size: 10pt;
+    font-weight: bold;
+}
+span.requerido {
+    color: red;
+}
+#apellido1, #apellido2, #direccion, #email {
+    width: 20em;
+}
+#municipio, #pais {
+    width: 7em;
+}
+li:last-child {
+    border-top: 1px solid;
+    text-align: right;
+    clear: left;
+    float: none;
+    width: 58%;
+}

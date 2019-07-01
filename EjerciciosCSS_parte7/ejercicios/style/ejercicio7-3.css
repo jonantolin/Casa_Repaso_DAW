@@ -1,0 +1,39 @@
+
+p {
+    display: none;
+}
+ul {
+    list-style: none;
+}
+form {
+    width: 550px;
+}
+li, div {
+    float: left;
+}
+span {
+    clear: left;
+}
+.requerido {
+    color: red;
+}
+label:first-child {
+    font-weight: bold;
+    height: 10em;
+    width: 10em;
+}
+li label, li input {
+    clear: left;
+    float: left;
+}
+li:last-child {
+    clear: left;
+    border-top: 1px solid;
+    width: 550px;
+    text-align: right;
+    padding: 1em;
+}
+li:last-child input {
+    position: relative;
+    left: 33em;
+}

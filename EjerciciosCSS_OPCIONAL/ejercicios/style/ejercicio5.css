@@ -1,0 +1,101 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    text-align: center;
+}
+header {
+    background-color: #cbcbcb;
+    border-top: 5px solid gray;
+    height: 100px;
+}
+header img {
+    float: left;
+    left: 40px;
+    position: relative;
+    top: 20px;
+}
+header nav {
+    float: left;
+}
+header nav a {
+    color: black;
+    margin-left: 90px;
+    position: relative;
+    text-decoration: none;
+    top: 40px;
+}
+header nav a:first-child {
+    border-left: 1px solid;
+    padding-left: 5px;
+}
+header div {
+    float: left;
+    margin-left: 50px;
+}
+header div ul li {
+    display: inline;
+}
+header div ul li a {
+    color: black;
+    margin-left: 10px;
+    position: relative;
+    text-decoration: none;
+    top: 40px;
+}
+aside {
+    background-color: teal;
+    float: left;
+    height: 400px;
+    width: 10%;
+}
+section {
+    background-color: wheat;
+    float: left;
+    height: 400px;
+    width: 90%;
+}
+footer {
+    background-color: gray;
+    clear: left;
+    display: block;
+    height: 12%;
+    padding: 2em 5em 1em;
+}
+#gplus {
+    background:url("../images/gplus.png") no-repeat;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    float: left;
+    top: 20px;
+}
+#gplus:hover {
+    background:url("../images/gplus_hover.png") no-repeat;
+}
+#twitter {
+    background:url("../images/twitter.png") no-repeat;
+    height: 100px;
+    width: 100px;
+    float: left;
+    top: 20px;
+    position: relative;
+}
+#twitter:hover {
+    background:url("../images/twitter_hover.png") no-repeat;
+}
+footer h3 {
+    background-color: #4d4545;
+    border-radius: 50px;
+    color: white;
+    float: right;
+    font-family: monospace;
+    padding: 0 10px;
+}
+footer p {
+    clear: right;
+    text-align: right;
+}

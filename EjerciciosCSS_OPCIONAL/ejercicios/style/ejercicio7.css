@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: gray;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: center;
+}
+header {
+    background-color: #cbcbcb;
+    border-top: 5px solid gray;
+    height: 100px;
+}
+header img {
+    float: left;
+    left: 40px;
+    position: relative;
+    top: 20px;
+}
+header nav {
+    float: left;
+}
+header nav a {
+    color: black;
+    margin-left: 90px;
+    position: relative;
+    text-decoration: none;
+    top: 40px;
+}
+header nav a:first-child {
+    border-left: 1px solid;
+    padding-left: 5px;
+}
+header div {
+    float: left;
+    margin-left: 50px;
+}
+header div ul li {
+    display: inline;
+}
+header div ul li a {
+    color: black;
+    margin-left: 10px;
+    position: relative;
+    text-decoration: none;
+    top: 40px;
+}
+aside {
+    background-color: teal;
+    float: left;
+    height: 500px;
+    width: 10%;
+}
+section {
+    background-color: #d9bf8e;
+    float: left;
+    height: 500px;
+    width: 90%;
+}
+article div {
+    background-color: wheat;
+    border: 1px dashed orange;
+    float: left;
+    height: 150px;
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 15%;
+}
+article h3 {
+    background-color: orange;
+    color: white;
+    font-style: oblique;
+    padding-left: 1em;
+    position: relative;
+    top: -20px;
+}
+article div p {
+    font-style: oblique;
+}
+article div p:first-letter {
+    color: orange;
+    font-size: 30pt;
+    font-weight: 800;
+    font-style: normal;
+    vertical-align: sub;
+    float: left;
+}
+#sig_ant {
+    clear: left;
+    background-color: #C6C6C6;
+    width: 65%;
+    padding: 1em;
+    margin: 10px;
+    border: 2px solid #BAB1B1;
+}
+.anterior {
+    text-decoration: none;
+    color: black;
+}
+.siguiente {
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+footer {
+    background-color: gray;
+    clear: left;
+    display: block;
+    height: 12%;
+    padding: 2em 5em 1em;
+}
+#gplus {
+    background:url("../images/gplus.png") no-repeat;
+    float: left;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    width: 100px;
+}
+#gplus:hover {
+    background:url("../images/gplus_hover.png") no-repeat;
+}
+#twitter {
+    background:url("../images/twitter.png") no-repeat;
+    float: left;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    width: 100px;
+}
+#twitter:hover {
+    background:url("../images/twitter_hover.png") no-repeat;
+}
+footer h3 {
+    background-color: #4d4545;
+    border-radius: 50px;
+    color: white;
+    float: right;
+    font-family: monospace;
+    padding: 0 10px;
+}
+footer p {
+    clear: right;
+    text-align: right;
+}

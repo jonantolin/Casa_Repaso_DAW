@@ -1,0 +1,62 @@
+
+* {
+    margin: 0;
+}
+section {
+    background-color: #8ce2a5;
+    height: 600px;
+    width: 600px;
+	background-image:	url("../images/imagenes_ej3/a.png"),
+						url("../images/imagenes_ej3/b.png"),
+						url("../images/imagenes_ej3/c.png"),
+						url("../images/imagenes_ej3/d.png"),
+						url("../images/imagenes_ej3/e.png"),
+						url("../images/imagenes_ej3/f.png"),
+						url("../images/imagenes_ej3/g.png"),
+						url("../images/imagenes_ej3/h.png"),
+						url("../images/imagenes_ej3/i.png"),
+						url("../images/imagenes_ej3/j.png"),
+						url("../images/imagenes_ej3/k.png"),
+						url("../images/imagenes_ej3/l.png"),
+						url("../images/imagenes_ej3/m.png"),
+						url("../images/imagenes_ej3/n.png"),
+						url("../images/imagenes_ej3/o.png"),
+						url("../images/imagenes_ej3/p.png");
+	background-repeat:no-repeat;
+	background-position: 6% 10%,
+						10% 21%, 
+						27% 12%, 
+						7% 54%, 
+						13% 40%, 
+						86% 11%,
+						11% 67%,
+						39% 5%, 
+						23% 91%,
+						90% 38%, 
+						64% 88%, 
+						80% 26%, 
+						65% 12%,
+						44% 90%,
+						91% 62%;
+}
+article {
+    background-color: #bee9f2;
+    font-family: comic sans ms;
+    font-size: 17pt;
+    height: 225px;
+    left: 125px;
+    padding: 1em;
+    position: absolute;
+    top: 200px;
+    width: 300px;
+}
+article > p:first-letter {
+    color: red;
+    font-size: 44pt;
+}
+cite {
+    font-family: arial;
+    font-size: 12pt;
+    font-style: unset;
+    text-align: right;
+}

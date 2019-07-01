@@ -1,0 +1,91 @@
+#ejercicio1{
+	width:200px;
+	height:150px;
+	margin-bottom:10em;
+	background-color:red;
+	box-shadow:2px 2px 2px 2px;
+	position:relative;
+	animation-name:animacion_ej1;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	animation-timing-function:linear;
+}
+
+@keyframes animacion_ej1{
+	0%{
+		background-color:red;
+		left:30px;
+		top:50px;
+	}
+	50%{
+		background-color:yellow;
+		left:200px;
+		top:75px;
+	}
+	100%{
+		background-color:green;
+		left:370px;
+		top:100px;
+	}
+}
+
+#vaso{
+	width:400px;
+	height:500px;
+	background:url("../images/vaso.jpg")no-repeat;
+	background-size:contain;
+	opacity:0.9;
+}
+
+#agua {
+    background-color: navy;
+    height: 30px;
+    width: 111px;
+    position: relative;
+    left: 146px;
+    opacity: 0.5;
+    top: 69%;
+    border-radius: 5px;
+	animation-name: animacion_ej2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	animation-delay:2s;
+}
+
+@keyframes animacion_ej2{
+	from{
+		height:30px;
+		top:69%;
+	}
+	to{
+		height:300px;
+		top:15%;
+	}
+}
+
+#cubo{
+	width:30px;
+	height:30px;
+	background:url("../images/cubo.jpg")no-repeat;
+	background-size:contain;
+	margin:auto;
+	padding-bottom:3em;
+	opacity:0.8;
+	transform: scale(2.5);
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: animacion_ej2cubo;
+    animation-timing-function: linear;
+	animation-delay:2s;
+}
+
+@keyframes animacion_ej2cubo{
+	from{
+		transform:scale(2.5);
+	}
+	to{
+		transform:scale(0.1);
+	}
+}

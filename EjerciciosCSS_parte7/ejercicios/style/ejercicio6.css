@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-transform: uppercase;
+    position: relative;
+    left: 6em;
+	background-color:gray;
+	color:white;
+	display:inline;
+}
+li {
+    background-color: #e2e2e2;
+    margin: 2px;
+    padding: 0.3em 1em;
+}
+ul {
+    list-style-type: none;
+}
+fieldset {
+    border: 2px dashed gray;
+    margin: 1em;
+    padding: 0.5em;
+    width: 750px;
+}
+fieldset:first-of-type ul li {
+    display: inline;
+}
+fieldset:nth-of-type(2) li:last-child ul li {
+    float: left;
+    width: 105px;
+    margin: 1px;
+}
+fieldset:nth-of-type(2) li:nth-child(3) ul, fieldset:nth-of-type(2) li:nth-child(4) ul {
+    list-style-type: initial;
+    margin: 0 2em;
+}
+legend {
+    background-color: gray;
+    color: white;
+}
+label, li{
+	font-variant:sub;
+}

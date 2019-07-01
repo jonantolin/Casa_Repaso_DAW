@@ -1,0 +1,41 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    text-align: center;
+}
+header {
+    background-color: powderblue;
+    height: 100px;
+    margin: 2px;
+}
+nav {
+    width: 10%;
+    height: 150px;
+    float: left;
+    margin: 2px;
+    background-color: salmon;
+}
+aside {
+    background-color: teal;
+    float: right;
+    height: 400px;
+    margin: 2px;
+    width: 17%;
+}
+section {
+    background-color: wheat;
+    float: left;
+    height: 400px;
+    margin: 2px;
+    width: 72%;
+}
+footer {
+    background-color: pink;
+    clear: left;
+    display: block;
+    height: 12%;
+    margin: 2px;
+}

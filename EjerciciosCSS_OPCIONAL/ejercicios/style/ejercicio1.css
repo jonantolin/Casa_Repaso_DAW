@@ -1,0 +1,30 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    text-align: center;
+}
+header {
+    background-color: powderblue;
+    height: 100px;
+}
+aside {
+    background-color: teal;
+    width: 10%;
+    float: left;
+    height: 400px;
+}
+section {
+    background-color: wheat;
+    float: left;
+    height: 400px;
+    width: 90%;
+}
+footer {
+    background-color: pink;
+    display: block;
+    height: 12%;
+    clear: left;
+}

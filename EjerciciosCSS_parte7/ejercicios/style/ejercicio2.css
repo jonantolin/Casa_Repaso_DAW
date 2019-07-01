@@ -1,0 +1,37 @@
+
+ul#menu {
+    list-style-type: none;
+    width: 900px;
+}
+ul#menu li {
+    float: left;
+    margin-left: 4px;
+}
+ul#menu li a {
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 0.5em 4em;
+    text-decoration: none;
+}
+ul#menu li a:hover {
+    background-color: #4342ab;
+    color: #4ae748;
+}
+aside {
+    clear: left;
+    float: left;
+    margin-top: 2em;
+}
+#enlaces_ejercicios {
+    list-style-type: none;
+}
+#enlaces_ejercicios li {
+    margin: 1px;
+    background-color: wheat;
+    border: 1px solid black;
+    padding: 2px;
+}
+#enlaces_ejercicios li a {
+    text-decoration: none;
+}

@@ -1,0 +1,82 @@
+#ejercicio1{
+	width:200px;
+	height:200px;
+	background-color:blue;
+	border-radius:10px;
+	transition:background-color 2s,
+				border-radius 1s;
+}
+#ejercicio1:hover{
+	background-color:red;
+	border-radius:30%;
+}
+#ejercicio2{
+	width:200px;
+	height:200px;
+	background-color:blue;
+	box-shadow:5px 5px 5px 5px gray;
+	transition:box-shadow 2s;			
+}
+#ejercicio2:hover{
+	box-shadow:20px 20px 20px 20px teal;
+}
+#ejercicio3{
+	width:200px;
+	height:200px;
+	background-color:tan;
+}
+#ejercicio3:hover{
+	background-color:red;
+	transition:all 1s ease-in-out;
+	transform:translateX(150px);
+}
+#ejercicio4{
+	width:200px;
+	height:200px;
+	background-color:tan;
+}
+#ejercicio4:hover{
+	background-color:red;
+	transition:all 1s ease-in-out;
+	transform:scale(2,2);
+}
+#ejercicio5{
+	width:200px;
+	height:200px;
+	background-color:tan;
+}
+#ejercicio5:hover{
+	background-color:red;
+	transition:all 1s ease-in-out;
+	transform:rotate(45deg);
+}
+#ejercicio6{
+	width:200px;
+	height:200px;
+	background-color:tan;
+	transition:all 1s ease-in-out;
+}
+#ejercicio6:hover{
+	background-color:red;
+	
+	transform:skew(45deg,20deg);
+}
+#ejercicio7{
+	width:200px;
+	height:200px;
+	background-color:tan;
+	box-shadow:5px 5px 5px 5px gray;
+	position:relative;
+	left:0%;
+	transition:background-color 1s linear,
+				transform 1.5s 1s ease,
+				box-shadow 1s,
+				left 2s 1.5s linear;
+}
+#ejercicio7:hover{
+	background-color:red;
+	box-shadow:30px 3px 3px 30px pink;
+	transform:scale(.5,.5);
+	left:5%;
+}
+

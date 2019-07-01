@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+}
+section {
+    background-color: #E2CF8C;
+    height: 600px;
+    width: 900px;
+	background-image:	url("../images/imagenes_ej4/periodico.png"),
+						url("../images/imagenes_ej4/gato.png"),
+						url("../images/imagenes_ej4/dinero.png"),
+						url("../images/imagenes_ej4/tele.png");
+	background-repeat:no-repeat;
+	background-position:3% 3%,
+						97% 3%, 
+						3% 97%, 
+						97% 97%;
+	background-size:18%;
+}
+article {
+    background-color: white;
+    font-family: comic sans ms;
+    font-size: 17pt;
+    height: 225px;
+    left: 170px;
+    padding: 1em;
+    position: absolute;
+    top: 150px;
+    width: 490px;
+    border-radius: 20px;
+}
+article > p::first-letter {
+    color: red;
+    font-size: 44pt;
+}
+cite {
+    font-family: arial;
+    font-size: 12pt;
+    font-style: unset;
+    text-align: right;
+}
+
+
+
